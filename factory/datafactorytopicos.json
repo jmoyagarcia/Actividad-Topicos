@@ -1,0 +1,9 @@
+{
+	"name": "datafactorytopicos",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "bb4bf3f4-ff4b-4af9-aa72-06c1cbfe064c",
+		"tenantId": "22f56a29-4577-465d-b9d9-c87709f24409"
+	}
+}
