@@ -1,0 +1,25 @@
+{
+	"name": "dset_adls_boletas",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "GoogleCloudStorage",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Integradores"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "GoogleCloudStorageLocation",
+				"bucketName": "ctr01"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
