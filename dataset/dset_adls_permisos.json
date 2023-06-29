@@ -1,5 +1,5 @@
 {
-	"name": "dset_adls_boletas",
+	"name": "dset_adls_permisos",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "GoogleCloudStorage",

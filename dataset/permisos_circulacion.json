@@ -1,0 +1,47 @@
+{
+	"name": "permisos_circulacion",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "GoogleCloudStorage",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "colectores"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "GoogleCloudStorageLocation",
+				"bucketName": "bucketopicos",
+				"fileName": "test.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Fecha",
+				"type": "String"
+			},
+			{
+				"name": "Placa",
+				"type": "String"
+			},
+			{
+				"name": "Forma_Pago",
+				"type": "String"
+			},
+			{
+				"name": "Año_Permiso",
+				"type": "String"
+			},
+			{
+				"name": "Valor_Permiso",
+				"type": "String"
+			}
+		]
+	}
+}
