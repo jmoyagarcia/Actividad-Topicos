@@ -1,0 +1,24 @@
+{
+	"name": "ds_boletas",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "GoogleCloudStorage",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "colectores"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "GoogleCloudStorageLocation"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
