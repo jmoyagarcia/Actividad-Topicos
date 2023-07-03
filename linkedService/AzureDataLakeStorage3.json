@@ -1,0 +1,11 @@
+{
+	"name": "AzureDataLakeStorage3",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"sasUri": "https://actividadfinalstorage.blob.core.windows.net/ctr1?sp=racwdli&st=2023-07-03T23:42:42Z&se=2023-07-15T07:42:42Z&spr=https&sv=2022-11-02&sr=c&sig=n%2BfAv3KictKFNAWAxhBOXKRsVMrFZLPNhW2k9fy9fkE%3D?sp=racwdli&st=2023-07-03T23:42:42Z&se=2023-07-15T07:42:42Z&spr=https&sv=2022-11-02&sr=c&sig=n%2BfAv3KictKFNAWAxhBOXKRsVMrFZLPNhW2k9fy9fkE%3D"
+		}
+	}
+}
