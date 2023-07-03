@@ -2,7 +2,7 @@
 	"name": "dset_adls_permisos",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "GoogleCloudStorage",
+			"referenceName": "AzureDataLakeStorage1",
 			"type": "LinkedServiceReference"
 		},
 		"folder": {
@@ -12,8 +12,8 @@
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
-				"type": "GoogleCloudStorageLocation",
-				"bucketName": "ctr01"
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "ctr1"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
